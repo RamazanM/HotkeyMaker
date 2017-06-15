@@ -3,8 +3,10 @@ from pynput.keyboard import Key, Controller
 import time
 import string
 import clipboard
+import sys
+# appjar klasörü
+# sys.path.append("E:\PYLIB")
 from appJar import gui
-
 
 def lines():
     # Dosyadaki satırları döndüren fonksiyon
